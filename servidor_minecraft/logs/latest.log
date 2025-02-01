@@ -1,54 +1,154 @@
-[01Feb2025 23:35:22.532] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[01Feb2025 23:35:22.535] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.25 by Ubuntu
-[01Feb2025 23:35:22.750] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[01Feb2025 23:35:22.805] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/hq-2.1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[01Feb2025 23:35:23.128] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[01Feb2025 23:35:23.196] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[01Feb2025 23:35:23.201] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[01Feb2025 23:35:23.206] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[01Feb2025 23:35:23.210] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[01Feb2025 23:35:23.995] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[01Feb2025 23:35:28.286] [modloading-worker-4/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
-[01Feb2025 23:35:28.289] [modloading-worker-4/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
-[01Feb2025 23:35:28.501] [modloading-worker-6/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
-[01Feb2025 23:35:28.515] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
-[01Feb2025 23:35:28.907] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
-[01Feb2025 23:35:28.908] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
-[01Feb2025 23:35:29.977] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/hq-2.1/servidor_minecraft/config/dynamictrees-common.toml is not correct. Correcting
-[01Feb2025 23:35:30.025] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[01Feb2025 23:35:30.033] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 6.9.6 Target: null
-[01Feb2025 23:35:30.038] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Feb2025 23:35:30.102] [main/INFO] [journeymap/]: Initializing Packet Registries
-[01Feb2025 23:35:30.190] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
-[01Feb2025 23:35:30.190] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
-[01Feb2025 23:35:30.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: UP_TO_DATE Current: 1.16.5-0.10.5 Target: null
-[01Feb2025 23:35:30.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[01Feb2025 23:35:30.566] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[01Feb2025 23:42:50.496] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[01Feb2025 23:42:50.499] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.25 by Ubuntu
+[01Feb2025 23:42:50.684] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[01Feb2025 23:42:50.733] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/hq-2.1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[01Feb2025 23:42:51.078] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Feb2025 23:42:51.146] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Feb2025 23:42:51.153] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Feb2025 23:42:51.158] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Feb2025 23:42:51.162] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[01Feb2025 23:42:52.031] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[01Feb2025 23:42:56.190] [modloading-worker-4/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[01Feb2025 23:42:56.211] [modloading-worker-4/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[01Feb2025 23:42:56.456] [modloading-worker-11/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[01Feb2025 23:42:56.477] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[01Feb2025 23:42:56.958] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[01Feb2025 23:42:56.958] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[01Feb2025 23:42:57.817] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[01Feb2025 23:42:57.843] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 6.9.6 Target: null
+[01Feb2025 23:42:57.846] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Feb2025 23:42:57.922] [main/INFO] [journeymap/]: Initializing Packet Registries
+[01Feb2025 23:42:58.023] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
+[01Feb2025 23:42:58.024] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[01Feb2025 23:42:58.385] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: UP_TO_DATE Current: 1.16.5-0.10.5 Target: null
+[01Feb2025 23:42:58.386] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[01Feb2025 23:42:58.668] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.lang.NullPointerException: null
 	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
 	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
 	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
-[01Feb2025 23:35:30.568] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[01Feb2025 23:35:30.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: v1.9.12.1 Target: null
-[01Feb2025 23:35:32.108] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Feb2025 23:35:32.162] [main/FATAL] [net.minecraft.server.Main/]: Failed to start the minecraft server
-net.minecraft.server.SessionLockManager$AlreadyLockedException: /workspaces/hq-2.1/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
-	at net.minecraft.server.SessionLockManager$AlreadyLockedException.func_233000_a_(SourceFile:98) ~[?:?]
-	at net.minecraft.server.SessionLockManager.func_232998_a_(SourceFile:44) ~[?:?]
-	at net.minecraft.world.storage.SaveFormat$LevelSave.<init>(SaveFormat.java:277) ~[?:?]
-	at net.minecraft.world.storage.SaveFormat.func_237274_c_(SaveFormat.java:265) ~[?:?]
-	at net.minecraft.server.Main.main(Main.java:116) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
-	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:37) ~[forge-1.16.5-36.2.42.jar:36.2]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
-	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:49) [forge-1.16.5-36.2.42.jar:?]
-	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:46) [forge-1.16.5-36.2.42.jar:?]
-	at net.minecraftforge.server.ServerMain.main(ServerMain.java:43) [forge-1.16.5-36.2.42.jar:?]
+[01Feb2025 23:42:58.680] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[01Feb2025 23:42:58.906] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: v1.9.12.1 Target: null
+[01Feb2025 23:42:59.680] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Feb2025 23:43:00.140] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Feb2025 23:43:00.142] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Feb2025 23:43:00.145] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Feb2025 23:43:00.147] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Feb2025 23:43:00.148] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Feb2025 23:43:00.151] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [waypoint, create, name, dimension, location, color, announce] and [waypoint, create, name, dimension, location, color, player] with inputs: [true, false]
+[01Feb2025 23:43:00.152] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [waypoint, delete, name, announce] and [waypoint, delete, name, player] with inputs: [true, false]
+[01Feb2025 23:43:00.159] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.42-universal.jar, tombstone-1.16.5-6.9.6.jar, DynamicTrees-1.16.5-0.10.5.jar, ironfurnaces-1.16.5-2.7.7.jar, journeymap-1.16.5-5.8.6.jar, ironchest-1.16.5-11.2.21.jar, [1.16.5] SecurityCraft v1.9.12.1.jar, jei-1.16.5-7.8.0.1012.jar
+[01Feb2025 23:43:00.761] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:chests/iron_silver_chest as it's serializer returned null
+[01Feb2025 23:43:00.769] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:upgrades/copper_to_iron_chest_upgrade as it's serializer returned null
+[01Feb2025 23:43:00.771] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:chests/silver_diamond_chest as it's serializer returned null
+[01Feb2025 23:43:00.782] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:chests/vanilla_copper_chest as it's serializer returned null
+[01Feb2025 23:43:00.791] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:upgrades/silver_to_gold_chest_upgrade as it's serializer returned null
+[01Feb2025 23:43:00.792] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:chests/copper_iron_chest as it's serializer returned null
+[01Feb2025 23:43:00.798] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:chests/silver_gold_chest as it's serializer returned null
+[01Feb2025 23:43:00.800] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:upgrades/copper_to_silver_chest_upgrade as it's serializer returned null
+[01Feb2025 23:43:00.806] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:chests/copper_silver_chest as it's serializer returned null
+[01Feb2025 23:43:00.808] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe ironchest:upgrades/wood_to_copper_chest_upgrade as it's serializer returned null
+[01Feb2025 23:43:00.814] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[01Feb2025 23:43:01.488] [Worker-Main-12/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1678 advancements
+[01Feb2025 23:43:03.044] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[01Feb2025 23:43:03.044] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Feb2025 23:43:03.044] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Feb2025 23:43:03.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Feb2025 23:43:03.139] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Feb2025 23:43:03.157] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[01Feb2025 23:43:03.287] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Feb2025 23:43:03.287] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Feb2025 23:43:03.288] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Feb2025 23:43:03.288] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Feb2025 23:43:03.302] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[01Feb2025 23:43:03.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Feb2025 23:43:03.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Feb2025 23:43:04.364] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Feb2025 23:43:04.364] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01Feb2025 23:43:04.686] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 48%
+[01Feb2025 23:43:05.990] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[01Feb2025 23:43:05.993] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[01Feb2025 23:43:06.336] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[01Feb2025 23:43:06.676] [Worker-Main-14/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[01Feb2025 23:43:07.212] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[01Feb2025 23:43:07.676] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[01Feb2025 23:43:08.175] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[01Feb2025 23:43:08.638] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4964 ms
+[01Feb2025 23:43:08.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.340s)! For help, type "help"
+[01Feb2025 23:43:08.744] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[01Feb2025 23:43:08.744] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /home/codespace/.python/current/bin/python /workspaces/hq-2.1/msx.py<--[HERE]
+[01Feb2025 23:43:50.590] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1fb4a8a3
+[01Feb2025 23:43:50.600] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: PechugaPollo[/127.6.77.115:42713] logged in with entity id 306 at (-151.5, 73.0, 123.5)
+[01Feb2025 23:43:50.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo joined the game
+[01Feb2025 23:44:18.082] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@b35a894
+[01Feb2025 23:44:18.086] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dasandel[/127.126.144.228:35413] logged in with entity id 427 at (-156.5, 70.0, 121.5)
+[01Feb2025 23:44:18.088] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Dasandel joined the game
+[01Feb2025 23:44:25.531] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@409e10f3
+[01Feb2025 23:44:25.535] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: pablo_08954[/127.97.231.129:42775] logged in with entity id 438 at (-160.5, 72.0, 133.5)
+[01Feb2025 23:44:25.536] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 joined the game
+[01Feb2025 23:44:48.187] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo has made the advancement [Easter Egg Searcher]
+[01Feb2025 23:44:50.031] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@401d5f2f
+[01Feb2025 23:44:50.034] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: sdiazzzx[/127.193.186.172:37289] logged in with entity id 557 at (-150.5, 73.0, 137.5)
+[01Feb2025 23:44:50.036] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sdiazzzx joined the game
+[01Feb2025 23:45:30.581] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 has made the advancement [Easter Egg Searcher]
+[01Feb2025 23:45:58.582] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sdiazzzx has made the advancement [Easter Egg Searcher]
+[01Feb2025 23:46:07.431] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Dasandel has made the advancement [Easter Egg Searcher]
+[01Feb2025 23:47:06.966] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo was slain by pablo_08954
+[01Feb2025 23:47:06.972] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo has made the advancement [Your First Grave]
+[01Feb2025 23:47:06.974] [Server thread/INFO] [tombstone/]: The player PechugaPollo has successfully been saved
+[01Feb2025 23:47:09.375] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 has made the advancement [Knowledge of Death]
+[01Feb2025 23:47:09.376] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 has made the advancement [Funeral Theft]
+[01Feb2025 23:47:22.509] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo has made the advancement [Knowledge of Death]
+[01Feb2025 23:47:22.509] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo has reached the goal [Here They Come]
+[01Feb2025 23:47:49.087] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sdiazzzx has made the advancement [Monster Hunter]
+[01Feb2025 23:48:01.789] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sdiazzzx hit the ground too hard whilst trying to escape Skeleton
+[01Feb2025 23:48:01.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sdiazzzx has made the advancement [Your First Grave]
+[01Feb2025 23:48:01.791] [Server thread/INFO] [tombstone/]: The player sdiazzzx has successfully been saved
+[01Feb2025 23:48:04.333] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo was slain by Enderman
+[01Feb2025 23:48:04.341] [Server thread/INFO] [tombstone/]: The player PechugaPollo has successfully been saved
+[01Feb2025 23:48:06.590] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: pablo_08954 lost connection: Disconnected
+[01Feb2025 23:48:06.590] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 left the game
+[01Feb2025 23:48:17.746] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1210dd1d
+[01Feb2025 23:48:17.752] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: pablo_08954[/127.97.231.129:55689] logged in with entity id 1553 at (-193.076132096482, 69.0, 213.69999998807907)
+[01Feb2025 23:48:17.754] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 joined the game
+[01Feb2025 23:48:18.031] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Dasandel has made the advancement [Ice Bucket Challenge]
+[01Feb2025 23:48:18.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Dasandel has made the advancement [Suit Up]
+[01Feb2025 23:48:19.545] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo has reached the goal [Chain Death]
+[01Feb2025 23:48:19.545] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo was blown up by Creeper
+[01Feb2025 23:48:19.552] [Server thread/INFO] [tombstone/]: The player PechugaPollo has successfully been saved
+[01Feb2025 23:48:19.888] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sdiazzzx has made the advancement [Knowledge of Death]
+[01Feb2025 23:48:19.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sdiazzzx has reached the goal [Here They Come]
+[01Feb2025 23:48:21.686] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 has made the advancement [Monster Hunter]
+[01Feb2025 23:48:23.736] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: PechugaPollo was kicked for floating too long!
+[01Feb2025 23:48:23.737] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: PechugaPollo lost connection: Flying is not enabled on this server
+[01Feb2025 23:48:23.737] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo left the game
+[01Feb2025 23:48:23.787] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
+[01Feb2025 23:48:25.292] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made PechugaPollo a server operator
+[01Feb2025 23:48:32.890] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4e1b280d
+[01Feb2025 23:48:32.894] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: PechugaPollo[/127.6.77.115:55195] logged in with entity id 1638 at (-177.57885770647667, 65.88631015225297, 166.68475634694607)
+[01Feb2025 23:48:32.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo joined the game
+[01Feb2025 23:48:43.739] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sdiazzzx has made the advancement [Easter Food]
+[01Feb2025 23:49:01.112] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Dasandel has made the advancement [Sweet Dreams]
+[01Feb2025 23:49:06.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 was slain by PechugaPollo
+[01Feb2025 23:49:06.656] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 has made the advancement [Your First Grave]
+[01Feb2025 23:49:06.657] [Server thread/INFO] [tombstone/]: The player pablo_08954 has successfully been saved
+[01Feb2025 23:49:14.270] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo has made the advancement [Funeral Theft]
+[01Feb2025 23:49:30.308] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 has reached the goal [Here They Come]
+[01Feb2025 23:49:56.593] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo has made the advancement [Stone Age]
+[01Feb2025 23:50:57.442] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 has made the advancement [Easter Food]
+[01Feb2025 23:50:59.988] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Dasandel has made the advancement [Knowledge of Death]
+[01Feb2025 23:50:59.988] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Dasandel has made the advancement [Easter Food]
+[01Feb2025 23:51:09.488] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sdiazzzx was shot by Skeleton
+[01Feb2025 23:51:09.496] [Server thread/INFO] [tombstone/]: The player sdiazzzx has successfully been saved
+[01Feb2025 23:51:35.149] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo has made the advancement [Monster Hunter]
+[01Feb2025 23:51:39.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo was shot by Skeleton
+[01Feb2025 23:51:39.339] [Server thread/INFO] [tombstone/]: The player PechugaPollo has successfully been saved
+[01Feb2025 23:51:42.661] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Dasandel moved wrongly!
+[01Feb2025 23:51:44.781] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Dasandel was slain by Iron Golem
+[01Feb2025 23:51:44.783] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Dasandel has made the advancement [Your First Grave]
+[01Feb2025 23:51:44.793] [Server thread/INFO] [tombstone/]: The player Dasandel has successfully been saved
+[01Feb2025 23:52:20.908] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Dasandel has reached the goal [Here They Come]
+[01Feb2025 23:52:21.837] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: PechugaPollo has made the advancement [Easter Food]
+[01Feb2025 23:52:40.581] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 was slain by Iron Golem
+[01Feb2025 23:52:40.596] [Server thread/INFO] [tombstone/]: The player pablo_08954 has successfully been saved
