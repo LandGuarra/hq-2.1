@@ -3055,3 +3055,21 @@ java.lang.NullPointerException: null
 [02Feb2025 00:28:35.885] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sdiazzzx left the game
 [02Feb2025 00:30:03.681] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Mason'/989, l='ServerLevel[world]', x=-404.47, y=69.00, z=257.12] died, message: 'Mason was slain by Zombie'
 [02Feb2025 00:30:56.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: pablo_08954 has made the advancement [Fishy Business]
+[02Feb2025 00:33:09.136] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[02Feb2025 00:33:09.139] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[02Feb2025 00:33:14.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[02Feb2025 00:33:14.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: kk<--[HERE]
+[02Feb2025 00:33:14.533] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[02Feb2025 00:33:14.541] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: k<--[HERE]
+[02Feb2025 00:33:15.133] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[02Feb2025 00:33:15.143] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: k<--[HERE]
+[02Feb2025 00:33:15.732] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[02Feb2025 00:33:15.733] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: kk<--[HERE]
+[02Feb2025 00:33:16.233] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[02Feb2025 00:33:16.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: kkk<--[HERE]
+[02Feb2025 00:33:17.732] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[02Feb2025 00:33:17.741] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: kkk<--[HERE]
+[02Feb2025 00:38:08.759] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[02Feb2025 00:38:08.762] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[02Feb2025 00:43:08.767] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[02Feb2025 00:43:08.770] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
