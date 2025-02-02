@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-02-02 00:19:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2025-02-01 23:56:43 +0000"
@@ -32,6 +38,12 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-02-01 23:54:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
     },
     "done": true
   },
@@ -65,6 +77,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_spruce_fence": {
     "criteria": {
       "has_stick": "2025-02-01 23:53:54 +0000"
@@ -74,6 +92,12 @@
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2025-02-01 23:59:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
     },
     "done": true
   },
@@ -116,6 +140,12 @@
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2025-02-01 23:49:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
     },
     "done": true
   },
@@ -247,6 +277,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-02-02 00:25:08 +0000",
       "cooked_mutton": "2025-02-02 00:03:47 +0000",
       "mutton": "2025-02-01 23:48:43 +0000",
       "rotten_flesh": "2025-02-01 23:57:40 +0000"
@@ -307,6 +338,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/redstone_module": {
     "criteria": {
       "has_iron": "2025-02-01 23:59:53 +0000"
@@ -325,6 +362,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_spruce_fence_gate": {
     "criteria": {
       "has_stick": "2025-02-01 23:53:54 +0000"
@@ -334,6 +383,18 @@
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2025-02-01 23:59:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-02-02 00:19:25 +0000"
     },
     "done": true
   },
@@ -352,6 +413,12 @@
   "securitycraft:recipes/securitycraft/door_indestructible_iron_item": {
     "criteria": {
       "has_iron": "2025-02-01 23:59:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
     },
     "done": true
   },
@@ -493,6 +560,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-02-02 00:15:18 +0000"
@@ -547,6 +620,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-02-02 00:19:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2025-02-01 23:54:37 +0000"
@@ -558,6 +643,7 @@
       "minecraft:skeleton": "2025-02-01 23:47:49 +0000",
       "minecraft:spider": "2025-02-01 23:49:22 +0000",
       "minecraft:creeper": "2025-02-02 00:09:59 +0000",
+      "minecraft:cave_spider": "2025-02-02 00:19:11 +0000",
       "minecraft:zombie": "2025-02-02 00:06:05 +0000"
     },
     "done": false
@@ -634,6 +720,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2025-02-02 00:07:11 +0000"
@@ -643,6 +735,12 @@
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-02-01 23:49:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
     },
     "done": true
   },
@@ -685,6 +783,12 @@
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2025-02-01 23:47:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-02-02 00:19:25 +0000"
     },
     "done": true
   },
@@ -802,9 +906,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_jungle_fence_gate": {
     "criteria": {
       "has_stick": "2025-02-01 23:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
     },
     "done": true
   },
@@ -856,6 +972,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-02-02 00:19:25 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_acacia_fence": {
     "criteria": {
       "has_stick": "2025-02-01 23:53:54 +0000"
@@ -874,9 +996,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-02-02 00:19:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_logs": "2025-02-01 23:46:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
     },
     "done": true
   },
@@ -943,6 +1077,12 @@
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-02-01 23:49:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-02-02 00:27:07 +0000"
     },
     "done": true
   },
